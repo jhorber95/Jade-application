@@ -1,0 +1,46 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "JadeApplication",
+    "packageName": "com.jade",
+    "packageFolder": "com/jade",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.1",
+    "jwtSecretKey": "ZTcwMTRiNmViM2Q2NTNmMTYyMmM4NzZkNzQwOWM3Yzk5NjQ5ZmYxYWZmZDRlYzU5YmIyZGFlY2NmZTczMTVmOWJkOWNiOTk5ZjhkNzAwY2M2Y2M2NmI2MGQzMGJjNDFkZGNhN2EzNTI5YjRhYTg2Y2Q4ZDk0NDE3ZjAxNmFmODM=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "jhorber95",
+  "repository-name": "Jade-application"
+}
